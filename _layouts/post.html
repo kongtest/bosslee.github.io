@@ -6,4 +6,7 @@ layout: default
 
 <div id="post">
 {{ content }}
+{{ page.content | number_of_words }}
+{{ page.excerpt | markdownify }}//
+{% post_url 2010-07-21-name-of-post %}
 </div>
